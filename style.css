@@ -4,3 +4,35 @@ h1
 {
 	color: green;
 }
+
+
+
+#visual
+{
+	background-color: blue;
+	position: relative;
+
+	overflow: hidden;
+	text-align: center;
+
+}
+
+#visual img
+{
+	border: 3px solid green;
+
+}
+
+
+/*
+.available
+{
+	position: absolute;
+	bottom: 500px;
+	width: 50vw;
+	background-color: red;
+	font-size:8em;
+	text-align: center;
+	border-radius: 15px;
+
+}
