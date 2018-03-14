@@ -2,7 +2,7 @@
 
 h1
 {
-	color: green;
+
 }
 
 .navbar
@@ -15,35 +15,59 @@ h1
 
     padding-top: 0em;
     padding-bottom: 0em;
+    font-size: 2rem;
+    height: 50px;
+}
+.navbar-brand img{
 
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.navbar-nav
+{
+	font-size: 1.5rem;
 
 }
 
-
-
 /* Background navbar*/
 .bg-light {
-    background-color: blue !important;
-    /*#f8f9fa;*/
-
+    background-color: orange !important;
 }
 
 
 #visual
 {
-	background-color: blue;
-	position: relative;
-
+	background-color: black;
 	overflow: hidden;
-	text-align: center;
-
 }
 
 #visual img
 {
-	border: 3px solid green;
+	border: 3px solid;
 
 }
+
+/* autres font
+font-family: 'Roboto', sans-serif;
+*/
+
+#visual .btn
+{
+	font-weight: bold;
+	top: 200px;
+	position: absolute;
+	right: 100px;
+	line-height: 1;
+	font-size: 5rem;
+	background-color: orange;
+	border-color: orange;
+	opacity: 0.8;
+	font-family: 'Mina', sans-serif;
+}
+
 
 
 /*
