@@ -5,6 +5,28 @@ h1
 	color: green;
 }
 
+.navbar
+{
+		text-align: right;
+}
+
+/* image/logo de la navbar */
+.navbar-brand {
+
+    padding-top: 0em;
+    padding-bottom: 0em;
+
+
+}
+
+
+
+/* Background navbar*/
+.bg-light {
+    background-color: blue !important;
+    /*#f8f9fa;*/
+
+}
 
 
 #visual
