@@ -1,31 +1,37 @@
 /* CSS */
-body
-{
+
+body {
 		background-color: black;
   	font-family: 'Roboto';
-
 	  font-size: 1.5em;
 }
 
-/* Background navbar*/
-.bg-light {
-
-}
-
-
-#visual
-{
-	background-color: black;
-
-}
-
-img {
-  
+/*@media (max-width: 576px) {
+	h1 {
+		font-size : 2em;
 	}
 
-.alert {
-	
+	h2 {
+			font-size : 1.0em;
+  }
+
+
+	h3 {
+			font-size : 0.5em:
+ 	}
+
+	body
+	{
+		  font-size: 0.5em;
+	}
+}*/
+
+/* Background navbar*/
+
+#visual {
+	background-color: black;
 }
+
 
 h1 {
 	font-size: 3em;
@@ -37,64 +43,49 @@ h2 {
 	font-size: 2.5em;
 }
 
+
 h3 {
   font-family: 'Roboto Slab', cursive;
-}
-/*
-p {
-	font-size: 3em;
-	text-align: justify;
-	font-family: 'Roboto';
-	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-*/
-#visual{
-
+	font-size: 2em;
 }
 
 
-.rounded /* je force l'arrondi de la bande alerte*/
-{
-	/*border-radius: 5rem;*/
+body {
+  	font-family: 'Roboto';
+	  font-size: 1.5em;
+}
+
+
+.bg-dark-grey {
+	background-color: rgba(61,61,61,1)
+}
+
+.bg-black {
+	background-color: rgba(0,0,0,1)
 }
 
 /* image/logo de la navbar */
 .navbar-brand {
-
     padding-top: 0em;
     padding-bottom: 0em;
     font-size: 2rem;
     height: 50px;
-  /* font-style: 'Mina';*/
-
-	text-align: center;
+  	text-align: center;
 }
 
-.navbar-brand img{
-    padding-top: 0em;
-    padding-bottom: 0em;
-    font-size: 2rem;
-    height: 100%;
-}
 
-.navbar-nav
+#visual
 {
-	font-size: 1.5rem;
+	background-color: black;
+	overflow: hidden;
 }
 
 /*tony*/
 
 .imgform {
-		background:url(pic/fondform2.jpg) no-repeat;
+		background:url(pic/fondform2.jpg) no-repeat fixed;
 		background-size:cover;
 }
-
-
-
-
-
 
 /*BEN CSS*/
 
