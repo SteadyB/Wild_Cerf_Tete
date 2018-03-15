@@ -1,8 +1,104 @@
 /* CSS */
 
+
+
+
+
+
+h1
+{
+	color: green;
+}
+
+
+#visual
+{
+	background-color: blue;
+	position: relative;
+
+	overflow: hidden;
+	text-align: center;
+}
+
+
+/*tony*/
+
 .imgform {
 		background:url(pic/fondform2.jpg) no-repeat;
 		background-size:cover;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BEN CSS*/
+
+/* CSS */
+
+h2 {
+	font-family: 'Roboto Slab', cursive;
+	font-size: 2.5em;
+}
+
+body {
+	font-family: 'Roboto';
+	font-size: 1.5em;
+}
+.mainFeatures {
+		background:url(pic/features.jpg) no-repeat center fixed;
+		background-size:cover;
+		;
+}
+
+.card {
+	background-color: rgba(0,0,0,0);
+}
+
+.bg-features {
+	background: inherit;
+	background-color: rgba(255,255,255,0.8);
+	/*-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);*/
+}
+
+.modal-lg {
+    max-width: 80%;
+		padding: 0 0 0 0;
+}
 
