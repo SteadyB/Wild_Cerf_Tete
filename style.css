@@ -41,6 +41,12 @@ body
 
 }
 
+#howItWork {
+
+	background: url(pic/woodplie.jpg) no-repeat center fixed;
+	background-size:cover;
+}
+
 
 #visual
 {
@@ -113,7 +119,7 @@ h3 {
 /*tony*/
 
 .imgform {
-		background:url(pic/fondform2.jpg) no-repeat fixed;
+		background:url(pic/fondform2.jpg) no-repeat center fixed;
 		background-size:cover;
 }
 
