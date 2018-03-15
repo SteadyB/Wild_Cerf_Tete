@@ -1,13 +1,43 @@
 /* CSS */
-
-h1
+body
 {
+		background-color: black;
+}
+
+
+h2
+{
+	font-family: 'Mina';
+
+	font-weight: bold;
+
+
+
+	color: white;
+	background-color: orange;
 
 }
 
+
+h3
+{
+	font-size: 3em;
+}
+
+p
+{
+	font-size: 3em;
+	text-align: justify;
+	font-family: 'Roboto';
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
 .navbar
 {
-		text-align: right;
+
 }
 
 /* image/logo de la navbar */
@@ -17,6 +47,7 @@ h1
     padding-bottom: 0em;
     font-size: 2rem;
     height: 50px;
+    font-style: 'Mina';
 }
 .navbar-brand img{
 
@@ -26,6 +57,10 @@ h1
     height: 100%;
 }
 
+.rounded /* je force l'arrondi de la bande alerte*/
+{
+	border-radius: 5rem !important;
+}
 .navbar-nav
 {
 	font-size: 1.5rem;
@@ -42,43 +77,21 @@ h1
 {
 	background-color: black;
 	overflow: hidden;
-}
-
-#visual img
-{
-	border: 3px solid;
 
 }
 
-/* autres font
-font-family: 'Roboto', sans-serif;
-*/
-
-#visual .btn
+img
 {
-	font-weight: bold;
-	top: 200px;
-	position: absolute;
-	right: 100px;
-	line-height: 1;
-	font-size: 5rem;
+	border: 3px solid green;
+	}
+
+.alert
+{
 	background-color: orange;
-	border-color: orange;
+	font-weight: bold;
+	top: -800px;
 	opacity: 0.8;
 	font-family: 'Mina', sans-serif;
-}
-
-
-
-/*
-.available
-{
-	position: absolute;
-	bottom: 500px;
-	width: 50vw;
-	background-color: red;
-	font-size:8em;
-	text-align: center;
+	font-size: 4rem;
 	border-radius: 15px;
-
 }
