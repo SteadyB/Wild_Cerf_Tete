@@ -2,69 +2,9 @@
 body
 {
 		background-color: black;
-}
-
-
-h2
-{
-	font-family: 'Mina';
-
-	font-weight: bold;
-
-
-
-	color: white;
-	background-color: orange;
-
-}
-
-
-h3
-{
-	font-size: 3em;
-}
-
-p
-{
-	font-size: 3em;
-	text-align: justify;
-	font-family: 'Roboto';
-	color: white;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-
-.navbar
-{
-
-}
-
-/* image/logo de la navbar */
-.navbar-brand {
-
-    padding-top: 0em;
-    padding-bottom: 0em;
-    font-size: 2rem;
-    height: 50px;
-    font-style: 'Mina';
-}
-.navbar-brand img{
-
-    padding-top: 0em;
-    padding-bottom: 0em;
-    font-size: 2rem;
-    height: 100%;
-}
-
-.rounded /* je force l'arrondi de la bande alerte*/
-{
-	border-radius: 5rem !important;
-}
-.navbar-nav
-{
-	font-size: 1.5rem;
-
+  	font-family: 'Roboto';
+    background:url(pic/features.jpg) no-repeat center fixed;
+	  font-size: 1.5em;
 }
 
 /* Background navbar*/
@@ -77,21 +17,115 @@ p
 {
 	background-color: black;
 	overflow: hidden;
-
 }
 
-img
-{
-	border: 3px solid green;
+img {
+  
 	}
 
-.alert
-{
+.alert {
 	background-color: orange;
 	font-weight: bold;
 	top: -800px;
 	opacity: 0.8;
-	font-family: 'Mina', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 4rem;
 	border-radius: 15px;
 }
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-weight: bold;
+  font-family: 'Roboto Slab', cursive;
+	font-size: 2.5em;
+}
+
+h3 {
+  font-family: 'Roboto Slab', cursive;
+}
+
+p {
+	font-size: 3em;
+	text-align: justify;
+	font-family: 'Roboto';
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#visual{
+
+}
+
+
+.rounded /* je force l'arrondi de la bande alerte*/
+{
+	border-radius: 5rem;
+}
+
+/* image/logo de la navbar */
+.navbar-brand {
+
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 50px;
+    font-style: 'Mina';
+	overflow: hidden;
+	text-align: center;
+}
+
+.navbar-brand img{
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.navbar-nav
+{
+	font-size: 1.5rem;
+}
+
+/*tony*/
+
+.imgform {
+		background:url(pic/fondform2.jpg) no-repeat;
+		background-size:cover;
+}
+
+
+
+
+
+
+/*BEN CSS*/
+
+.mainFeatures {
+		background:url(pic/features.jpg) no-repeat center fixed;
+		background-size:cover;
+		;
+}
+
+.card {
+	background-color: rgba(0,0,0,0);
+}
+
+.bg-features {
+	background: inherit;
+	background-color: rgba(255,255,255,0.8);
+	/*-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);*/
+}
+
+.modal-lg {
+    max-width: 80%;
+		padding: 0 0 0 0;
+}
+
