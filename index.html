@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,7 +10,8 @@
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
   <title>Wild Cerf'Tête by WildX</title>
   <!--CDN-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet"/>
   </head>
 
   <main>
@@ -102,49 +104,188 @@
 <!-- _ -->
 
 <!-- ___BEN_#1___ -->
-
-      <div><!-- Features -->
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
-                </div>
-            </div>
+<!-- Features -->
+<section id="mainFeatures" class="mainFeature">
+  <div class="container-fluid bg-secondary p-5">
+    <div class="row justify-content-center my-5 mx-5 px-2 py-2">
+      <div class="col-lg-4">
+        <div class="card border-0 bg-secondary">
+          <h4 class= "col-12 text-center mx-auto mb-3 text-light">BLUETOOTH</h4>
+          <img class="card-img-top w-25 mx-auto my-auto" src="pic/icon_bluetooth.svg" alt="battery icon">
+          <p class="card-text text-center mx-3 my-3 text-light">Bluetooth 5.2 couplé au AptX</br>profiter d'une qualite de transmition exeptionnel et un son Hi-res Audio</p>
         </div>
-    </section>
-
-
-
-
-
       </div>
 
-      <div><!-- Gallery -->
-
-    <!-- Intro Section -->
-    <section id="intro" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
-                </div>
-            </div>
+      <div class="col-lg-4">
+        <div class="card border-0 bg-secondary">
+          <h4 class= "col-12 text-center mx-auto mb-3 text-light">BATTERY</h4>
+          <img class="card-img-top w-25 mx-auto my-auto" src="pic/icon_battery.svg" alt="battery icon">
+          <p class="card-text text-center mx-3 my-3 text-light">Autonomie exeptionnel de 2H.</br>Grace au batterie a sodium Speciallement dévelloppée</br> par les ingenieurs de WildX</br> Nos batterie sont garantie a vie avec un perte de capacite infinitesimal</p>
         </div>
-    </section>
-
-
-
-
-
       </div>
 
+      <div class="col-lg-4">
+        <div class="card border-0 bg-secondary">
+          <h4 class= "col-12 text-center mx-auto mb-3 text-light">PORTÉ</h4>
+          <img class="card-img-top w-25 mx-auto my-auto" src="pic/icon_signal.svg" alt="battery icon">
+          <p class="card-text text-center mx-3 my-3 text-light">Une portee de 50m</br>Grace a nos algorythme brevetes ne perder jamais le lien pendant votre conversation</br> Notre application vous informe en temps reel de la distance avec le cerfvide</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+
+  <div>
+    <!-- Gallery -->
+    <!--------->
+    <!--------->
+    <!--Modal-->
+    <!--------->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <!--<div class="modal-header">
+            <h4 class="modal-title">Modal Heading</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div> -->
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="w-100 h-auto" src="pic/belling.jpg" alt="a belling male deer">
+                  <div class="carousel-caption">
+                    <h3>LE BRAME</h3>
+                    <p>"Whatup bro ?!"</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100 h-auto" src="pic/selfi.jpg" alt="zoom on a deer head">
+                  <div class="carousel-caption">
+                    <h3>FRIEND</h3>
+                    <p>"Do you come with apple ?"</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100 h-auto" src="pic/hind.jpg" alt="hinden deer">
+                  <div class="carousel-caption">
+                    <h3>Hello.</h3>
+                    <p>"Wanna speak?"</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>-->
+
+        </div>
+      </div>
+    </div>
+
+<!-- Desktop Gallery -->
+<section id="gallery" class="">
+  <div class="container-fluid p-3 bg-dark text-light">
+      <h2 class="text-center m-2"> GALLERY </h2>
+    <div class="row p-5">
+      <!--__0__-->
+      <div class="col-xs-6 col-lg-3 p-0">
+        <!--<div data-toggle="modal" data-target="#myModal">-->
+          <img data-toggle="modal" data-target="#myModal" class="w-100 h-auto mx-0 my-0" src="pic/belling.jpg" alt="belling deer" data-toggle="modal" data-target="#myModal">
+        <!--</div>-->
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="rounded-0">
+          <img class="w-100 h-auto" src="pic/hind.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="rounded-0">
+          <img class="w-100 h-auto "src="pic/selfi.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="rounded-0">
+          <img class="w-100 h-auto" src="pic/belling.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="rounded-0">
+          <img class="w-100 h-auto" src="pic/selfi.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/hind.jpg" alt="...">
+        </a>
+      </div>
+      <!--__1__-->
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/hind.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/hind.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto"src="pic/belling.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/selfi.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/belling.jpg" alt="...">
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-3 p-0">
+        <a href="Link_to_modal_Carrousel" class="border-0">
+          <img class="w-100 h-auto" src="pic/belling.jpg" alt="...">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+  </div>
 <!-- ___1_end___ -->
 <!-- _____ -->
 <!-- ___ -->
@@ -155,13 +296,13 @@
       <div><!-- How it Work -->
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section">
+    <section id="howItWork" class="bg-secondary text-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <h1>Fonctionnement</h1>
+                    <p><strong>Les casques reçoivent les ondes cérébrales via les bois qui font office d’antenne. Une AI breveter  intégrer dans le casque convertie les ondes reçus en onde que le cerf reçoit et peut comprendre. De plus le casque va aussi détecter les ondes cérébrales du cerf, les convertir en langage compréhensible pour la personne portant le casque dans la langue choisie via l’application.</p>
+
                 </div>
             </div>
         </div>
@@ -176,15 +317,27 @@
       <div><!-- features -->
 
     <!-- Intro Section -->
-    <section id="intro" class="intro-section">
+    <section id="features" class="bg-dark text-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <h1>Caractéristiques Principales</h1>
                 </div>
-            </div>
+				<div class="col-lg-5">
+					<h3 clas="text_center">Caractéristiques internes</h3>
+					<p><div>Autonomie : 2 heure</div><div>batterie : lithium</div><div>Application : IOS/Android</div><div>langue : Anglais, Français, Espagnol, Japonais</div></p>
+				</div>
+				<div class="col-lg-5">
+					<h3 clas="text_center">Caractéristiques externes</h3>
+					<p><div>Poids : 350 gr</div><div>Portée : 50 m</div></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<br/>
+					<p><strong>Certifié conforme EU</strong></p>
+				</div>
+			</div>
         </div>
     </section>
 
@@ -221,83 +374,84 @@
 
       </div>
 
-      <div><!-- contact -->
 
 
 <!-- Contact Section -->
-<div class="container-fluid">
-  <div class="container-form well">
-      <form action="validate.php" method="post" role="form">
-      <legend>Contact Us :</legend>
+    <section class= "imgform">
+
+      <div class="container-fluid p-3 mb-2 text-dark ">
+        <h2 class="text-center m-2">Pré-Commande</h2>
+        <form action="" method="post" role="form">
 
 
-      <div class="form-group">
-          <label for="subject">Favorite Movies</label>
-          <select id="subject" name="subject" class="form-control" required>
-              <option value="Movie" selected="">Select a movie</option>
-              <option value="Seven">Seven</option>
-              <option value="Usual Suspect">Usual Suspect</option>
-              <option value="The Departed">The Departed</option>
-              <option value="Mystic River">Mystic River</option>
-              <option value="Other">Other</option>
-          </select>
-      </div>
-      <div class="form-group">
-          <label for="name">
-             First Name and Surname</label>
-          <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-              <input type="text" class="form-control" name="name" id="name" placeholder="First Name and Surname" required />
-              <p class="<?php echo $error[1]; ?>"></p>
+          <div class="form-group row justify-content-center">
+            <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Nom et Prénom</label>
+            <div class="col-sm-5">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Nom et Prénom">
+            </div>
           </div>
-      </div>
-      <div class="form-group">
-          <label for="email">
-              Email Address</label>
-          <div class="input-group">
-              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" />
+
+          <div class="form-group row justify-content-center">
+            <label for="inputPassword3" class="col-sm-2 col-form-label text-right">Email</label>
+            <div class="col-sm-5">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+            </div>
           </div>
-      </div>
-      <div class="form-group">
-          <label for="tel">
-              Phone Number</label>
-          <div class="input-group">
-                                  <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span>
-                                  </span>
-              <input type="tel" class="form-control" id="tel" name="tel" placeholder="Your Phone Number"  maxlength="14" required />
+          <div class="form-group row justify-content-center">
+            <label for="inputPassword3" class="col-sm-2 col-form-label text-right">Mobile</label>
+            <div class="col-sm-5">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Mobile">
+            </div>
           </div>
-      </div>
+
+            <div class="form-group row justify-content-center">
+              <div class="">
+                <button type="submit" class="btn btn-primary ">Réservez</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+
+    </section>
 
 
 
-      <button type="submit" class="btn btn-success">Submit</button>
-  </form>
-  </div>
+
+
+      <!-- Footer -->
+      <footer>
+        <div>
+
+
+
+           <p>
+             <nav class="navbar navbar-expand-sm bg-dark navbar-dark footer py-4">
+  <!-- Brand -->
+  <a href="#"> <img class="navbar-brand" src="pic/favicon2.png" alt= "logo"> </a>
+<div class= "justify-content-end">
+
+  <ul class="navbar-nav ">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+      <li class="nav-item">
+      <a class="nav-link" href="#"><i class="fab fa-instagram"></i>Instagram</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#"><i class="fab fa-instagram"></i>Beats</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="#"><i class="fab fa-instagram"></i>Apple</a>
+</li>
+
 </div>
 
 
 
 
-      </div>
-
-      <!-- Footer -->
-      <footer>
-        <div id=footer>
-
-           <br/>
-           <p>
-              <img class="wild" src= "logo wildx" alt="society logo" />
-             WildX by <a href="" target="_blank"></a> -
-
-             <img class="FB" src= "https://images.vexels.com/media/users/3/137253/isolated/preview/90dd9f12fdd1eefb8c8976903944c026-icono-de-icono-de-facebook-by-vexels.png" alt="logo facebook" />
-             <a  href="lien FB" target="_blank">Facebook</a> -
-
-             <img class="Tweet" src= "https://images.vexels.com/media/users/3/132556/isolated/preview/b2314c5cc836a5a3f6448bc4f98f37d8-icono-cuadrado-twitter-by-vexels.png" alt="logo twitter" />
-             <a href="lien Twitter" target="_blank"> Twitter</a> -
-
-             <img class="Insta" src= "https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" alt="logo Instagram" />
-             <a href="lien Instagram" target="_blank">Instagram</a>
 
            </p>
             </footer>
@@ -314,5 +468,11 @@
 <!-- ___ -->
 <!-- _ -->
 
-    </body>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+   </body>
   <main>
+
+<!-- 3 end-->
