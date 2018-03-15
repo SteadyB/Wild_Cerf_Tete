@@ -1,25 +1,94 @@
 /* CSS */
-
-
-
-
-
-
-h1
+body
 {
-	color: green;
+		background-color: black;
+  	font-family: 'Roboto';
+    background:url(pic/features.jpg) no-repeat center fixed;
+	  font-size: 1.5em;
+}
+
+/* Background navbar*/
+.bg-light {
+    background-color: orange !important;
 }
 
 
 #visual
 {
-	background-color: blue;
-	position: relative;
+	background-color: black;
+	overflow: hidden;
+}
 
+img {
+  
+	}
+
+.alert {
+	background-color: orange;
+	font-weight: bold;
+	top: -800px;
+	opacity: 0.8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4rem;
+	border-radius: 15px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-weight: bold;
+  font-family: 'Roboto Slab', cursive;
+	font-size: 2.5em;
+}
+
+h3 {
+  font-family: 'Roboto Slab', cursive;
+}
+
+p {
+	font-size: 3em;
+	text-align: justify;
+	font-family: 'Roboto';
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#visual{
+
+}
+
+
+.rounded /* je force l'arrondi de la bande alerte*/
+{
+	border-radius: 5rem;
+}
+
+/* image/logo de la navbar */
+.navbar-brand {
+
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 50px;
+    font-style: 'Mina';
 	overflow: hidden;
 	text-align: center;
 }
 
+.navbar-brand img{
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 100%;
+}
+
+.navbar-nav
+{
+	font-size: 1.5rem;
+}
 
 /*tony*/
 
@@ -33,50 +102,8 @@ h1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*BEN CSS*/
 
-/* CSS */
-
-h2 {
-	font-family: 'Roboto Slab', cursive;
-	font-size: 2.5em;
-}
-
-body {
-	font-family: 'Roboto';
-	font-size: 1.5em;
-}
 .mainFeatures {
 		background:url(pic/features.jpg) no-repeat center fixed;
 		background-size:cover;
