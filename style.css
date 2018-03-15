@@ -19,7 +19,35 @@
 	}
 }*/
 
-/* Background navbar*/
+
+
+body
+{
+  	font-family: 'Roboto';
+	  font-size: 1.5em;
+}
+
+/* Background color*/
+.bg-light {
+    background-color: orange;
+}
+
+.bg-dark-grey {
+	background-color: rgba(61,61,61,1)
+
+}
+.bg-black {
+
+	background-color: rgba(0,0,0,1)
+
+}
+
+#howItWork {
+
+	background: url(pic/woodplie.jpg) no-repeat center fixed;
+	background-size:cover;
+}
+
 
 #visual
 {
@@ -28,7 +56,7 @@
 }
 
 img {
-  
+
 	}
 
 h1 {
@@ -73,7 +101,7 @@ body
 /*tony*/
 
 .imgform {
-		background:url(pic/fondform2.jpg) no-repeat fixed;
+		background:url(pic/fondform2.jpg) no-repeat center fixed;
 		background-size:cover;
 }
 
@@ -103,4 +131,3 @@ body
     max-width: 80%;
 		padding: 0 0 0 0;
 }
-
