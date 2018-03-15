@@ -3,20 +3,20 @@ body
 {
 		background-color: black;
   	font-family: 'Roboto';
-    background:url(pic/features.jpg) no-repeat center fixed;
+
 	  font-size: 1.5em;
 }
 
 /* Background navbar*/
 .bg-light {
-    background-color: orange !important;
+
 }
 
 
 #visual
 {
 	background-color: black;
-	overflow: hidden;
+
 }
 
 img {
@@ -24,13 +24,7 @@ img {
 	}
 
 .alert {
-	background-color: orange;
-	font-weight: bold;
-	top: -800px;
-	opacity: 0.8;
-	font-family: 'Roboto', sans-serif;
-	font-size: 4rem;
-	border-radius: 15px;
+	
 }
 
 h1 {
@@ -46,7 +40,7 @@ h2 {
 h3 {
   font-family: 'Roboto Slab', cursive;
 }
-
+/*
 p {
 	font-size: 3em;
 	text-align: justify;
@@ -55,7 +49,7 @@ p {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-
+*/
 #visual{
 
 }
@@ -63,7 +57,7 @@ p {
 
 .rounded /* je force l'arrondi de la bande alerte*/
 {
-	border-radius: 5rem;
+	/*border-radius: 5rem;*/
 }
 
 /* image/logo de la navbar */
@@ -73,8 +67,8 @@ p {
     padding-bottom: 0em;
     font-size: 2rem;
     height: 50px;
-    font-style: 'Mina';
-	overflow: hidden;
+  /* font-style: 'Mina';*/
+
 	text-align: center;
 }
 
