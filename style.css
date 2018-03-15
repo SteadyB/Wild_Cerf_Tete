@@ -1,5 +1,10 @@
 /* CSS */
 
+
+
+
+
+
 h1
 {
 	color: green;
@@ -16,7 +21,12 @@ h1
 }
 
 
+/*tony*/
 
+.imgform {
+		background:url(pic/fondform2.jpg) no-repeat;
+		background-size:cover;
+}
 
 
 
@@ -91,3 +101,4 @@ body {
     max-width: 80%;
 		padding: 0 0 0 0;
 }
+
