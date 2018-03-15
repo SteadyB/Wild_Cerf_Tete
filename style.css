@@ -13,6 +13,7 @@ h1
 
 	overflow: hidden;
 	text-align: center;
+}
 
 
 
@@ -55,16 +56,17 @@ h1
 
 /*BEN CSS*/
 
+/* CSS */
+
 h2 {
 	font-family: 'Roboto Slab', cursive;
 	font-size: 2.5em;
 }
- 
+
 body {
 	font-family: 'Roboto';
 	font-size: 1.5em;
 }
-
 .mainFeatures {
 		background:url(pic/features.jpg) no-repeat center fixed;
 		background-size:cover;
@@ -78,10 +80,14 @@ body {
 .bg-features {
 	background: inherit;
 	background-color: rgba(255,255,255,0.8);
-  
-#visual img
-{
-	border: 3px solid green;
-
+	/*-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);*/
 }
 
+.modal-lg {
+    max-width: 80%;
+		padding: 0 0 0 0;
+}
