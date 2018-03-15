@@ -1,5 +1,11 @@
 /* CSS */
 
+body {
+		background-color: black;
+  	font-family: 'Roboto';
+	  font-size: 1.5em;
+}
+
 /*@media (max-width: 576px) {
 	h1 {
 		font-size : 2em;
@@ -8,6 +14,7 @@
 	h2 {
 			font-size : 1.0em;
   }
+
 
 	h3 {
 			font-size : 0.5em:
@@ -21,15 +28,10 @@
 
 /* Background navbar*/
 
-#visual
-{
+#visual {
 	background-color: black;
-	overflow: hidden;
 }
 
-img {
-  
-	}
 
 h1 {
 	font-size: 3em;
@@ -41,26 +43,34 @@ h2 {
 	font-size: 2.5em;
 }
 
+
 h3 {
   font-family: 'Roboto Slab', cursive;
 	font-size: 2em;
 }
 
-body
-{
+
+body {
   	font-family: 'Roboto';
 	  font-size: 1.5em;
 }
 
-/* Background color*/
 
 .bg-dark-grey {
 	background-color: rgba(61,61,61,1)
-
 }
+
 .bg-black {
 	background-color: rgba(0,0,0,1)
+}
 
+/* image/logo de la navbar */
+.navbar-brand {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-size: 2rem;
+    height: 50px;
+  	text-align: center;
 }
 
 
