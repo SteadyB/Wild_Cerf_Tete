@@ -107,6 +107,7 @@ body
 .imgform {
 		background:url(pic/fondform2.jpg) no-repeat center fixed;
 		background-size:cover;
+		font-color: black;
 }
 
 /*BEN CSS*/
@@ -134,4 +135,16 @@ body
 .modal-lg {
     max-width: 80%;
 		padding: 0 0 0 0;
+}
+
+.btn{
+	background-color: black;
+	margin-left: 55px;
+	color: white;
+
+}
+
+.btn:hover {
+	background-color: #ff6600ff;
+	color: black;
 }
