@@ -24,7 +24,7 @@
 body
 {
   	font-family: 'Roboto';
-	  font-size: 1.5em;
+    font-size: calc(25px + (30 - 25) * (100vw - 400px) / 1200);
 }
 
 /* Background color*/
@@ -60,24 +60,18 @@ img {
 	}
 
 h1 {
-	font-size: 3em;
+font-size: calc(40px + (50 - 40) * (100vw - 400px) / 1200);
 }
 
 h2 {
 	font-weight: bold;
   font-family: 'Roboto Slab', cursive;
-	font-size: 2.5em;
+  font-size: calc(35px + (40 - 45) * (100vw - 400px) / 1200);
 }
 
 h3 {
   font-family: 'Roboto Slab', cursive;
-	font-size: 2em;
-}
-
-body
-{
-  	font-family: 'Roboto';
-	  font-size: 1.5em;
+  font-size: calc(30px + (35 - 40) * (100vw - 400px) / 1200);
 }
 
 /* Background color*/
