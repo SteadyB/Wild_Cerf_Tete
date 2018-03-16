@@ -91,6 +91,10 @@ body
 
 }
 
+.galleryPointer {
+  cursor: pointer;
+}
+
 
 #visual
 {
