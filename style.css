@@ -18,6 +18,20 @@ body
 #Why {
   background: url(pic/why.png) no-repeat center;
 	background-size:100vw;
+}
+
+#features {
+	background-color: rgba(255,255,255,0.8);
+}
+
+.opacityZero {
+  background-color: rgba(0,0,0,0);
+}
+
+.mergedBg {
+  background: url(pic/waves_blue.png) no-repeat center fixed;
+	background-size:cover;
+}
 
 }
 
