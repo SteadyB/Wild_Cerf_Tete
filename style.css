@@ -63,6 +63,7 @@ font-size: calc(40px + (50 - 40) * (100vw - 400px) / 1200);
 }
 
 h2 {
+</div>
 	font-weight: bold;
   font-family: 'Roboto Slab', cursive;
   font-size: calc(35px + (40 - 45) * (100vw - 400px) / 1200);
@@ -86,6 +87,11 @@ h3 {
 
 .galleryPointer {
   cursor: pointer;
+}
+
+.navbar-light {
+
+  background-color: rgba(0,0,0,0);
 }
 
 
@@ -127,4 +133,17 @@ h3 {
 .modal-lg {
     max-width: 80%;
 		padding: 0 0 0 0;
+}
+
+.btn {
+	background-color: black;
+  margin-left: 55px;
+  color :white;
+
+}
+
+.btn:hover{
+
+  background-color: #ff6600ff;
+  color:black;
 }
