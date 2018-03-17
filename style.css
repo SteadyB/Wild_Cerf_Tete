@@ -1,62 +1,25 @@
 /* CSS */
-
-/*@media (max-width: 576px) {
-	h1 {
-		font-size : 2em;
-	}
-
-	h2 {
-			font-size : 1.0em;
-  }
-
-	h3 {
-			font-size : 0.5em:
- 	}
-
-	body
-	{
-		  font-size: 0.5em;
-	}
-}*/
-
-
 body
 {
   	font-family: 'Roboto';
     font-size: calc(25px + (30 - 25) * (100vw - 400px) / 1200);
 }
 
-/* Background color*/
-.bg-light {
-    background-color: orange;
-}
+#footer {
 
-.bg-dark-grey {
-	background-color: rgba(61,61,61,1)
-
-}
-.bg-black {
-
-	background-color: rgba(0,0,0,1)
-
+    font-size: calc(14px + (22 - 14) * (100vw - 400px) / 1200);
 }
 
 #howItWork {
-
-	background: url(pic/woodplie.jpg) no-repeat center fixed;
+	background: url(pic/waves_blue.png) no-repeat center fixed;
 	background-size:cover;
 }
 
+#Why {
+  background: url(pic/why.png) no-repeat center;
+	background-size:100vw;
 
-#visual
-{
-	background-color: black;
-	overflow: hidden;
 }
-
-img {
-
-	}
 
 h1 {
 font-size: calc(40px + (50 - 40) * (100vw - 400px) / 1200);
@@ -73,6 +36,10 @@ h3 {
   font-size: calc(30px + (35 - 40) * (100vw - 400px) / 1200);
 }
 
+label {
+  font-size: calc(10px + (20 - 10) * (100vw - 400px) / 1200);
+}
+
 /* Background color*/
 
 .bg-dark-grey {
@@ -84,30 +51,22 @@ h3 {
 
 }
 
-.galleryPointer {
-  cursor: pointer;
+.navbar-light {
+
+  background-color: rgba(0,0,0,0);
 }
 
 
-#visual
-{
-	background-color: black;
-	overflow: hidden;
-}
-
-/*tony*/
+/*SECTION*/
 
 .imgform {
 		background:url(pic/fondform2.jpg) no-repeat center fixed;
 		background-size:cover;
 }
 
-/*BEN CSS*/
-
 .mainFeatures {
-		background:url(pic/features.jpg) no-repeat center fixed;
+		background:url(pic/features.jpg) no-repeat fixed;
 		background-size:cover;
-		;
 }
 
 .card {
@@ -117,14 +76,22 @@ h3 {
 .bg-features {
 	background: inherit;
 	background-color: rgba(255,255,255,0.8);
-	/*-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
-	-o-filter: blur(10px);
-	-ms-filter: blur(10px);
-	filter: blur(10px);*/
 }
 
 .modal-lg {
-    max-width: 80%;
+    max-width: 70vh;
 		padding: 0 0 0 0;
+}
+
+.btn {
+	background-color: black;
+  margin-left: 55px;
+  color :white;
+
+}
+
+.btn:hover{
+
+  background-color: #ff6600ff;
+  color:black;
 }
